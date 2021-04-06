@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.brand{
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    transform: translateX(-40px);
+}
+
+@media (max-width: 599px){
+    .brand{
+        font-size: 30px;
+    }
+    .brandname{
+        padding-top: 10px;
+    }
+}
+
+.brandname{
+    padding-left: 5px;
+}
+
+.inrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav button {
+    margin-top: 10px;
+    border: none;
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+  
+.site-header {
+    padding-left: 20px;
+    /* position: relative; */
+    background-color: black;
+    color: white;
+}
+  
+.site-header__wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.nav {
+    flex: 1;
+}
+  
+.nav__item a {
+    display: block;
+    padding: 0.6rem 2rem;
+    font-size: 20px;
+}
+  
+@media (min-width: 600px) {
+    .nav__item--end {
+      margin-left: auto;
+    }
+}
+  
+.nav__toggle {
+    display: none;
+}
+@media (max-width: 599px) {
+    .nav__toggle {
+      display: block;
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+    }
+}
+  
+.wrapper {
+    max-width: 1140px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 65px;
+    height: 65px;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+  
+ul {
+    list-style: none;
+}
+
+.bb {
+    border: 2px solid #0f47c0;
+    color: white;
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+  
+.bbb {
+    border: 2px solid #0f47c0;
+    background: #0f47c0;
+    color: white;
+    border-radius: 50px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+/* slideshow */
+
+.slideshow {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 80px 0px;
+    /* background-color: #797979; */
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 65em;
+    margin: 0 auto;
+}
+
+.links a{
+  display: block;
+  padding: 0.6rem 2rem;
+  font-size: 20px;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.tItem h1{
+    font-size: 55px;
+}
+
+.links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.howto{
+    padding: 50px 0px;
+    background-color: #f2fbfd;
+}
+
+.howto h1{
+    width: 80%;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.howtohead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.number{
+    font-size: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    background-color: #0f47c0;
+    border-radius: 50%;
+    color: white;
+}
+
+.text{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
